@@ -117,13 +117,61 @@
     </div>
   </section>
   <!-- Portfolio -->
-  <!-- Contact -->
+  <section class="portfolio-section bg-gray-100 py-16">
+    <div class="container mx-auto">
+      <!-- Portfolio Title -->
+      <h2 class="text-3xl font-bold mb-8">Featured Work</h2>
+
+      <!-- Portfolio Items Container -->
+      <div class="flex mb-8">
+        <!-- Portfolio Item 1 -->
+        <div class="w-1/2 pr-8">
+          <!-- Image -->
+          <img
+            src="./assets/images/portfolio-item1.jpg"
+            alt="Portfolio Item 1"
+            class="w-full h-full object-cover rounded-md mb-4"
+          />
+
+          <!-- Details (Text) -->
+          <div>
+            <p class="text-soft-blue text-lg mb-2">
+              Website URL:
+              <a href="https://www.example.com" target="_blank"
+                >www.NovaSyncTechnologies.com</a
+              >
+            </p>
+            <p class="text-gray-600 text-sm">Year: 2022</p>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="w-1/2 pl-8">
+          <!-- Image -->
+          <img
+            src="./assets/images/portfolio-item2.jpg"
+            alt="Portfolio Item 2"
+            class="w-full h-full object-cover rounded-md mb-4"
+          />
+
+          <!-- Details (Text) -->
+          <div>
+            <p class="text-soft-blue text-lg mb-2">
+              Website URL:
+              <a href="https://www.anotherexample.com" target="_blank"
+                >www.QuantumByteSolutions.com</a
+              >
+            </p>
+            <p class="text-gray-600 text-sm">Year: 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Footer -->
 </template>
 
 <style setup>
-/* Global styles here */
-
 .btn-primary {
   background-color: #ff0000;
   color: #f9f9f9;
