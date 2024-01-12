@@ -13,4 +13,4 @@
 
 ## How To Use:
 
-1. Visit the [Vue Landing Page]().
+1. Visit the [Vue Landing Page](vue-landing-page-blond.vercel.app).
