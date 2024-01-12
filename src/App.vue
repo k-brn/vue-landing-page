@@ -25,9 +25,9 @@
           >
         </div>
 
-        <!-- Responsive Menu (for smaller screens) -->
+        <!-- Responsive Menu -->
         <div class="lg:hidden">
-          <!-- Add your responsive menu icon/button here -->
+          <!-- Add responsive menu icon/button here -->
         </div>
       </div>
     </nav>
@@ -130,7 +130,7 @@
           <img
             src="./assets/images/portfolio-item1.jpg"
             alt="Portfolio Item 1"
-            class="w-full h-full object-cover rounded-md mb-4"
+            class="w-full h-full object-cover mb-4"
           />
 
           <!-- Details (Text) -->
@@ -141,7 +141,7 @@
                 >www.NovaSyncTechnologies.com</a
               >
             </p>
-            <p class="text-gray-600 text-sm">Year: 2022</p>
+            <p class="text-black text-sm">Year: 2022</p>
           </div>
         </div>
 
@@ -151,7 +151,7 @@
           <img
             src="./assets/images/portfolio-item2.jpg"
             alt="Portfolio Item 2"
-            class="w-full h-full object-cover rounded-md mb-4"
+            class="w-full h-full object-cover mb-4"
           />
 
           <!-- Details (Text) -->
@@ -162,13 +162,67 @@
                 >www.QuantumByteSolutions.com</a
               >
             </p>
-            <p class="text-gray-600 text-sm">Year: 2021</p>
+            <p class="text-black text-sm">Year: 2021</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- Footer -->
+  <footer class="bg-black text-creamy-white py-8">
+    <div class="container mx-auto flex items-center justify-between">
+      <div class="text-white text-lg font-bold">Paperclip Studios</div>
+
+      <!-- Navigation Links -->
+      <nav class="flex space-x-4 mr-4">
+        <a href="#" class="hover:text-white">Home</a>
+        <a href="#" class="hover:text-white">Services</a>
+        <a href="#" class="hover:text-white">Portfolio</a>
+        <a href="#" class="hover:text-white">About Us</a>
+        <a href="#" class="hover:text-white">Contact</a>
+      </nav>
+
+      <!-- Social Media Icons -->
+      <div class="flex space-x-4">
+        <!-- Replace the href attribute with your actual social media links -->
+        <a href="#" target="_blank" class="hover:text-white">
+          <img
+            src="./assets/images/facebook-icon.png"
+            alt="Facebook"
+            class="h-6 w-6"
+          />
+        </a>
+        <a href="#" target="_blank" class="hover:text-white">
+          <img
+            src="./assets/images/twitter-icon.png"
+            alt="Twitter"
+            class="h-6 w-6"
+          />
+        </a>
+        <a href="#" target="_blank" class="hover:text-white">
+          <img
+            src="./assets/images/instagram-icon.png"
+            alt="Instagram"
+            class="h-6 w-6"
+          />
+        </a>
+        <a href="#" target="_blank" class="hover:text-white">
+          <img
+            src="./assets/images/tiktok-icon.png"
+            alt="TikTok"
+            class="h-6 w-6"
+          />
+        </a>
+        <a href="#" target="_blank" class="hover:text-white">
+          <img
+            src="./assets/images/discord-icon.png"
+            alt="Discord"
+            class="h-6 w-6"
+          />
+        </a>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <style setup>
