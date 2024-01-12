@@ -1,12 +1,9 @@
 <template>
-  <!-- Navbar -->
   <div>
     <nav class="bg-black p-4 text-creamy-white">
       <div class="container mx-auto flex items-center justify-between">
-        <!-- Branding -->
         <div class="text-lg font-bold">Paperclip Studios</div>
 
-        <!-- Navigation Links -->
         <div class="flex space-x-4">
           <router-link to="/" class="no-underline hover:underline"
             >Home</router-link
@@ -28,37 +25,32 @@
     </nav>
   </div>
 
-  <!-- Hero -->
   <section
     class="hero-section relative overflow-hidden bg-soft-blue h-screen flex items-center"
   >
-    <!-- Hero Image -->
     <div class="absolute inset-0 overflow-hidden">
       <img
         src="./assets/images/hero-image.jpg"
         alt="Workspace"
         class="w-full h-full object-cover"
       />
-      <!-- Semi-transparent overlay -->
+
       <div class="absolute inset-0 bg-black opacity-40"></div>
     </div>
 
-    <!-- Container -->
     <div class="container mx-auto text-center relative z-10">
-      <!-- Headline -->
       <h1
         class="text-4xl lg:text-5xl xl:text-6xl font-bold text-creamy-white mb-6"
       >
         Unleash Your Creativity with Paperclip Studios
       </h1>
 
-      <!-- Call to Action -->
       <router-link to="/start" class="btn-primary">
         Start Crafting
       </router-link>
     </div>
   </section>
-  <!-- About -->
+
   <section
     class="about-section bg-black py-16 flex flex-col-reverse items-center lg:flex-row"
   >
@@ -70,7 +62,6 @@
           About
         </h2>
 
-        <!-- Description -->
         <p class="text-creamy-white text-base lg:text-lg mb-4">
           Paperclip Studios is a creative hub dedicated to digital design and
           crafting unique products. Our mission is to unleash creativity and
@@ -90,7 +81,6 @@
           quality.
         </p>
 
-        <!-- Call to Action -->
         <p class="text-creamy-white text-base lg:text-lg">
           Ready to collaborate with us?
           <a href="#" class="no-underline hover:underline"
@@ -100,7 +90,6 @@
         </p>
       </div>
 
-      <!-- Photo -->
       <div class="w-full lg:w-1/2 lg:pl-8">
         <img
           src="./assets/images/team-photo.jpg"
@@ -111,24 +100,18 @@
     </div>
   </section>
 
-  <!-- Portfolio -->
   <section class="portfolio-section py-16">
     <div class="container mx-auto">
-      <!-- Portfolio Title -->
       <h2 class="text-3xl font-bold mb-8">Featured Work</h2>
 
-      <!-- Portfolio Items Container -->
       <div class="flex flex-col lg:flex-row mb-8">
-        <!-- Portfolio Item 1 -->
         <div class="lg:w-1/2 pr-8 mb-8 lg:mb-0">
-          <!-- Image -->
           <img
             src="./assets/images/portfolio-item1.jpg"
             alt="Portfolio Item 1"
             class="w-full h-full object-cover mb-4 lg:mb-0"
           />
 
-          <!-- Details (Text) -->
           <div class="lg:ml-6">
             <p class="text-lg mb-2">
               Website URL:
@@ -140,16 +123,13 @@
           </div>
         </div>
 
-        <!-- Portfolio Item 2 -->
         <div class="lg:w-1/2 pl-8">
-          <!-- Image -->
           <img
             src="./assets/images/portfolio-item2.jpg"
             alt="Portfolio Item 2"
             class="w-full h-full object-cover mb-4 lg:mb-0"
           />
 
-          <!-- Details (Text) -->
           <div class="lg:mr-6">
             <p class="text-lg mb-2">
               Website URL:
@@ -164,12 +144,10 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-black text-creamy-white py-8">
     <div class="container mx-auto flex items-center justify-between">
       <div class="text-white text-lg font-bold">Paperclip Studios</div>
 
-      <!-- Navigation Links -->
       <nav class="flex space-x-4 mr-4">
         <a href="#" class="hover:text-white">Home</a>
         <a href="#" class="hover:text-white">Services</a>
@@ -178,9 +156,7 @@
         <a href="#" class="hover:text-white">Contact</a>
       </nav>
 
-      <!-- Social Media Icons -->
       <div class="flex space-x-4">
-        <!-- Replace the href attribute with your actual social media links -->
         <a href="#" target="_blank" class="hover:text-white">
           <img
             src="./assets/images/facebook-icon.png"

@@ -1,29 +1,16 @@
-# vue-hero-demo
+# Vue Landing Page
 
-This template should help get you started developing with Vue 3 in Vite.
+## How It's Made:
 
-## Recommended IDE Setup
+**Tech used:** Vue.js, Tailwind CSS
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features:
 
-## Customize configuration
+- Easy-to-read design with clear fonts and organized content.
+- Fast loading for a quick and smooth experience.
+- Buttons strategically placed for easy engagement.
+- Simple navigation guiding users to important sections.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## How To Use:
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+1. Visit the [Vue Landing Page]().
