@@ -63,10 +63,60 @@
     </div>
   </section>
   <!-- About Us -->
-  <!-- Services -->
+  <section
+    class="about-section bg-black py-16 flex flex-col-reverse items-center lg:flex-row"
+  >
+    <div
+      class="container mx-auto flex flex-col lg:flex-row justify-between items-center"
+    >
+      <!-- About Us Text (To the Left) -->
+      <div class="w-full lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
+        <!-- Section Title -->
+        <h2 class="text-creamy-white text-3xl lg:text-4xl font-bold mb-8">
+          About Us
+        </h2>
+
+        <!-- Description -->
+        <p class="text-creamy-white text-lg mb-4">
+          Paperclip Studios is a creative hub dedicated to digital design and
+          crafting unique products. Our mission is to unleash creativity and
+          bring innovative ideas to life. We are passionate about delivering
+          high-quality digital experiences and products that resonate with our
+          clients and users.
+        </p>
+
+        <p class="text-creamy-white text-lg mb-4">
+          Our team comprises skilled individuals with expertise in various areas
+          of digital design.
+        </p>
+
+        <p class="text-creamy-white text-lg mb-4">
+          Over the years, we have successfully delivered digital solutions to a
+          diverse range of clients, earning recognition for our creativity and
+          quality.
+        </p>
+
+        <!-- Call to Action -->
+        <p class="text-creamy-white text-lg">
+          Ready to collaborate with us?
+          <a href="#" class="no-underline hover:underline"
+            >Contact Paperclip Studios</a
+          >
+          today.
+        </p>
+      </div>
+
+      <!-- Photo -->
+      <div class="w-full lg:w-1/2 lg:pl-8">
+        <img
+          src="./assets/images/team-photo.jpg"
+          alt="Team Photo"
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+  </section>
   <!-- Portfolio -->
-  <!--  skip Creative Process -->
-  <!--  skip Testimonials -->
   <!-- Contact -->
   <!-- Footer -->
 </template>
